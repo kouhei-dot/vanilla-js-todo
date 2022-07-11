@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body > main > div {
+  min-height: 150px;
+}
+
+main {
+  margin: 1rem auto;
+}
+
+input {
+  margin: 1.5rem;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  outline: none;
+}
+
+button {
+  background-color: #111827;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  border: none;
+  transition: all 0.5s 0s ease;
+}
+
+button:hover {
+  background-color: #a78bfa;
+  color: black;
+}
+
+h2 {
+  color: #a3a3a3;
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin: 1rem auto;
+}
+
+.bg-primary {
+  background-color: #a5f3fc;
+}
+
+.bg-secondary {
+  background-color: #a7f3d0;
+}
+
+.bg-accent {
+  background-color: #fef3c7;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.round {
+  border-radius: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+

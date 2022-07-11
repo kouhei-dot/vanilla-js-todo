@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>VanillaJS Todo</title>
+</head>
+
+<body>
+  <main class="w-60">
+    <div class="flex bg-primary round">
+      <input type="text" placeholder="TODOを入力" />
+      <button id="add-btn">追加</button>
+    </div>
+
+    <div class="bg-secondary round">
+      <h2>未完了のTODO</h2>
+      <ul></ul>
+    </div>
+
+    <div class="bg-accent round">
+      <h2>完了したTODO</h2>
+      <ul></ul>
+    </div>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
